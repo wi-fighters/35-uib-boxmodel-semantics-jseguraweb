@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0.5fr 1.5fr 2fr;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+h1 {
+     font-family: 'Odibee Sans', cursive;
+     font-size: 6.5rem;
+     width: 100%;
+     text-align: center;   
+}
+
+main {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 1.5rem auto;
+}
+
+main section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 1px solid #000;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.members {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+#band {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+#logo {
+    width: 45%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+h2 {
+    width: 100%;
+    font-size: 1.8rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+li {
+    font-size: 1rem;
+    line-height: 1.9;
+}
+
+.story {
+    width: 67%;
+    height: auto;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+cite {
+    width: 50%;
+    margin: 0.5rem auto;
+}
